@@ -20,6 +20,7 @@ class CharacterContainer extends React.Component {
         return this.state.characters.filter(character => character.name.toLowerCase().includes(this.state.searchValue.toLowerCase()))
     }
 
+    //  tried doing advanced!!!
     // filteredCharactersShow = () => {
     //     return this.state.characters.filter(character => character.show.toLowerCase().includes(this.state.searchValue.toLowerCase()))
     // }
